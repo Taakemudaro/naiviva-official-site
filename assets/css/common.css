@@ -145,6 +145,10 @@ slider
   height: 160px;
   margin-left: 2.94%;
 }
+.swiper-slide.swiper-slide--experience img {
+  width: auto;
+  height: 160px;
+}
 
 .swiper.swiper--shop {
   /*スライダーの幅と高さを調整*/
@@ -155,12 +159,17 @@ slider
   .swiper.swiper--experience {
     /*スライダーの幅と高さを調整*/
     margin-top: 20px;
+    height: 100px;
   }
   .swiper-wrapper.swiper-wrapper--experience {
   }
   .swiper-slide.swiper-slide--experience {
     /*スライド要素の幅と高さを調整*/
     margin-left: 5.12%;
+    height: 100px;
+  }
+  .swiper-slide.swiper-slide--experience img {
+    height: 100px;
   }
 }
 
