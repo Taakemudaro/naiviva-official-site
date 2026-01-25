@@ -5,7 +5,7 @@ fv
  */
 .fv {
   width: 100%;
-  height: 680px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,7 +78,7 @@ fv
 
 .fv__feature {
   position: absolute;
-  top: 257px;
+  bottom: 157px;
   left: var(--width-section-pc);
 }
 .fv__topic {
@@ -102,11 +102,8 @@ fv
 }
 
 @media screen and (max-width: 768px) {
-  .fv {
-    height: 687px;
-  }
   .fv__feature {
-    top: 328px;
+    bottom: 100px;
     left: var(--width-section-sp);
   }
   .fv__topic img {
@@ -316,7 +313,7 @@ online shop
   flex-direction: column;
 }
 .shop-slide__item {
-  max-width: 250px;
+  width: 250px;
 }
 .shop-slide__item > img {
   width: 100%;
@@ -352,7 +349,8 @@ online shop
     gap: 3.84%;
   }
   .shop-slide__item {
-    min-width: 29.48%;
+    width: 125px;
+    min-width: 125px;
   }
   .shop-slide__item > img {
     width: 100%;
