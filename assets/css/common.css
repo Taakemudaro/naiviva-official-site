@@ -150,11 +150,6 @@ slider
   height: 160px;
 }
 
-.swiper.swiper--shop {
-  /*スライダーの幅と高さを調整*/
-  margin: 0;
-}
-
 @media screen and (max-width: 768px) {
   .swiper.swiper--experience {
     /*スライダーの幅と高さを調整*/

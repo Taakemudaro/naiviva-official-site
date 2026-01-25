@@ -313,7 +313,7 @@ online shop
   flex-direction: column;
 }
 .shop-slide__item {
-  max-width: 250px;
+  width: 250px;
 }
 .shop-slide__item > img {
   width: 100%;
@@ -349,7 +349,8 @@ online shop
     gap: 3.84%;
   }
   .shop-slide__item {
-    min-width: 32.05%;
+    width: 125px;
+    min-width: 125px;
   }
   .shop-slide__item > img {
     width: 100%;
